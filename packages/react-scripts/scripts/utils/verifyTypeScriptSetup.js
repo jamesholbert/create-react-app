@@ -256,9 +256,9 @@ function verifyTypeScriptSetup() {
   if (!fs.existsSync(paths.appTypeDeclarations)) {
     fs.writeFileSync(
       paths.appTypeDeclarations,
-      `/// <reference types="react-scripts" />${os.EOL}`// hello-world-by-Wholebear start
-      `/// <reference types="hello-world-by-Wholebear" />${os.EOL}`
-      // hello-world-by-Wholebear end
+      `/// <reference types="react-scripts" />${os.EOL}` // hello-world-by-wholebear start
+      `/// <reference types="hello-world-by-wholebear" />${os.EOL}`
+      // hello-world-by-wholebear end
     );
   }
 }
