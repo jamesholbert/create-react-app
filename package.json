@@ -1,5 +1,11 @@
 {
-  "private": true,
+  "name": "hello-world-by-Wholebear",
+  "version": "0.1.0",
+  "description": "Trying to fork a unique CRA.",
+  "repository": "jamesholbert/create-react-app",
+  "bugs": {
+    "url": "https://github.com/jamesholbert/create-react-app/issues"
+  },
   "workspaces": [
     "packages/*"
   ],

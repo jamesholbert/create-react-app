@@ -81,6 +81,13 @@ function tryGitCommit(appPath) {
   }
 }
 
+// hello-world-by-Wholebear start
+function helloLarkinTuckerLLCDirections() {
+  console.log(chalk.yellow('Hello Larkin & Tucker LLC Directions'));
+  console.log('Hello World');
+}
+// hello-world-by-Wholebear end
+
 module.exports = function(
   appPath,
   appName,
@@ -88,9 +95,12 @@ module.exports = function(
   originalDirectory,
   templateName
 ) {
+  // hello-world-by-Wholebear start
+  helloLarkinTuckerLLCDirections();
+  // hello-world-by-Wholebear end
+
   const appPackage = require(path.join(appPath, 'package.json'));
   const useYarn = fs.existsSync(path.join(appPath, 'yarn.lock'));
-
   if (!templateName) {
     console.log('');
     console.error(
